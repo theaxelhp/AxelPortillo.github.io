@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: blanchedalmond;
+	color: #666666;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+	background-color: gray;
+	background-image: conic-gradient(white,black);
+	color: #FFFFFF;
+	height: 120px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 3em;
+
+}
+header a {
+	text-decoration: none;
+}
+nav {
+	font-weight: bold;
+	font-size: 120%;
+	padding: 1.5em;
+	float: left;
+	width: 160px;
+
+}
+nav a {
+	text-decoration: none;
+	font-weight: lighter;
+}
+nav a:link {
+	color:#5c7fa3;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color:royalblue;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0%;
+	padding-left: 0%;
+	font-size: 1.2em;
+}
+main {
+	background-color: gainsboro;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	margin-left: 190px;
+	display: block;
+	overflow: auto;
+}
+main ul {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: lighter;
+}
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: lighter;
+}
+h1 {
+	margin-bottom: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 3em;
+	margin-top: 0;
+	font-weight: lighter;
+}
+h2 {
+	color: slategray;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: lighter;
+}
+h3 {
+	color: #000033;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: lighter;
+}
+footer {
+	background-color: gray;
+	color: aliceblue;
+	font-size: 75%;
+	font-weight: lighter;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 2em;
+	margin-left: 190px;
+}
+#imgplace {
+	float: right;
+}
+.studios {
+    color: darkslategray;
+}
+img {
+	margin: 0;
+	margin-bottom: 0;
+	float:right;
+}
+table {
+	border: 2px solid blanchedalmond;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 1em;
+	border: 4px solid blanchedalmond;
+	font-weight: lighter;
+}
+th {
+	font-size: larger;
+	color: white;
+}
+td {
+	text-align: center;
+}
+.text {
+	text-align: left;
+}
+tr:first-of-type {
+	background-color: gray;
+}
+h3 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: smaller;
+	font-weight: lighter;
+	color: darkslategrey;
+	font-style: italic;
+	text-align: center;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 135px;
+	padding-right: 10px;
+}
+input {
+	display: block;
+	margin-bottom: 30px;
+}
+textarea {
+	display: block;
+	margin-bottom: 30px;
+}
+form {
+	font-weight: lighter;
+}
